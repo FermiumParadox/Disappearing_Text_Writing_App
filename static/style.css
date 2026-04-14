@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    background: #999;
+    color: #111;
+    text-align: center;
+    padding: 50px;
+}
+
+textarea {
+    width: 80%;
+    height: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: color 0.8s ease, text-shadow 0.8s ease;
+}
+
+/* Fade animation: text color dissolves into the background */
+textarea.fading {
+    color: transparent;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
